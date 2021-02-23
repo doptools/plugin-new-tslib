@@ -1,6 +1,6 @@
 {
   "name": "@doptools/plugin-new-tslib",
-  "version": "0.0.0",
+  "version": "0.0.0-dev.0",
   "description": "",
   "homepage": "https://github.com/doptools/plugin-new-tslib",
   "author": "Dan Erdelt",
