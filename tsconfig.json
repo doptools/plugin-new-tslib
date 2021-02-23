@@ -23,7 +23,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "traceResolution": false,
-    "listEmittedFiles": false,
+    "listEmittedFiles": true,
     "listFiles": false,
     "pretty": true,
     "experimentalDecorators": true,
