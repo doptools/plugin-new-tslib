@@ -17,12 +17,13 @@
   "scripts": {
     "fix": "run-s fix:*",
     "fix:lint": "tslint src --ext .ts --fix",
+    "clean": "rimraf lib/*",
     "check": "run-p check:*",
     "check:spelling": "cspell \"{README.md,.github/*.md,src/**/*.ts}\"",
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack": "yarn run clean && tsc -b && oclif-dev manifest && oclif-dev readme",
     "version": "oclif-dev readme && git add README.md"
   },
   "files": [
@@ -44,6 +45,7 @@
     "@doptools/tslib-cli-core": "^0.0.0-dev.1",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
+    "rimraf": "^3.0.2",
     "tslib": "^2.1.0"
   },
   "devDependencies": {
