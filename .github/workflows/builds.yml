@@ -30,7 +30,9 @@ jobs:
         run: yarn
 
       - name: Build
-        run: yarn run prepack
+        run: |
+          yarn run prepack
+          ls -al ./lib
 
     #  - name: Run
     #    run: yarn run dryrun test-env --no-interactive
