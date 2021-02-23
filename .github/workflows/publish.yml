@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: |
           yarn version --no-git-tag-version --new-version ${{ steps.version.outputs.full }}
-          yarn run build
+          yarn run prepack
 
       - name: Publish
         env:
