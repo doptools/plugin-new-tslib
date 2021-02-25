@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "@angular-devkit/schematics": "^11.2.1",
-    "@doptools/schematic-project-tslib": "^0.0.0-dev.2",
-    "@doptools/tslib-cli-core": "^0.0.0-dev.1",
+    "@doptools/schematic-project-tslib": "^0.0.0-dev.3",
+    "@doptools/tslib-cli-core": "^0.0.0-dev.7",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "rimraf": "^3.0.2",
