@@ -8,3 +8,4 @@
 node_modules
 /doptools-plugin-new-tslib-*.tgz
 tsconfig.tsbuildinfo
+oclif.manifest.json
